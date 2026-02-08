@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import Lottie from "lottie-react";
-import loginAnimation from "../assets/Face scanning.json";
+import loginAnimation from "../assets/face-scanning.json";
 import { login } from "../api/authService";
 import { AuthContext } from "../auth/AuthContext";
 import FaceVerification from "../components/FaceVerification";
